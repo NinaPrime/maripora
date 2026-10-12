@@ -1,0 +1,23 @@
+{
+  "id":"./",
+  "name":"Mariporã - Inspeção de dormentes",
+  "short_name":"Mariporã",
+  "description":"Registro, inspeção e acompanhamento de dormentes ferroviários.",
+  "lang":"pt-BR",
+  "start_url":"./index.html#inicio",
+  "scope":"./",
+  "display":"standalone",
+  "orientation":"any",
+  "background_color":"#f6f7f5",
+  "theme_color":"#b4232d",
+  "icons":[
+    {"src":"icons/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
+    {"src":"icons/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"},
+    {"src":"app-icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any"}
+  ],
+  "shortcuts":[
+    {"name":"Novo registro","url":"./index.html#registros"},
+    {"name":"Inventário","url":"./index.html#inventario"},
+    {"name":"Conferência","url":"./index.html#conferencia"}
+  ]
+}
